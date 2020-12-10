@@ -18,13 +18,13 @@
       "value": "ANYTHING"
     },
       "BOT_TOKEN": {
-        "description": "The telegram bot token that you get from @BotFather.",
-        "value": "",
+        "description": "Don't Change",
+        "value": "1459868115:AAEoyAwpyGfESm-P15QOh4pUDOiHSrtYurk",
         "required": true
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
-        "value": "",
+        "value": "1UJiudUXktOyLKc6-2IssPYcRnPIjdLex",
         "required": true
       },
       "DOWNLOAD_DIR": {
@@ -39,17 +39,17 @@
       },
       "OWNER_ID": {
         "description": "The Telegram user ID (not username) of the owner of the bot.",
-        "value": "",
+        "value": "715779594",
         "required": true
       },
       "AUTO_DELETE_MESSAGE_DURATION": {
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
-        "value": "20",
+        "value": "-1",
         "required": false
       },
       "IS_TEAM_DRIVE": {
         "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
-        "value": "",
+        "value": "True",
         "required": false
       },
       "USE_SERVICE_ACCOUNTS": {
@@ -59,22 +59,22 @@
       },
       "INDEX_URL": {
         "description": "Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'.",
-        "value": "",
+        "value": "https://tgindex.hackitabirhasan.workers.dev/3:/Uploads",
         "required": false
       },
       "TELEGRAM_API": {
         "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.",
-        "value": "",
+        "value": "1578262",
         "required": true
       },
       "TELEGRAM_HASH": {
         "description": "This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "value": "",
+        "value": "664ecb8d62405ae3e3e015216f6e2615",
         "required": true
       },
       "TELEGRAPH_TOKEN": {
         "description": "Open this link to generate telegraph token ==> https://telegraph-token.sonywegas.repl.run",
-        "value": "",
+        "value": "593eea5a69e5cf3b3614284d19f8cb0837362dec8ecd02acb41935f0f691",
         "required": false
       },
       "MEGA_API_KEY": {
@@ -92,9 +92,14 @@
         "value": "",
         "required": false
       },
+      "BLOCK_MEGA_LINKS": {
+        "description": "Keep it",
+        "value": "True",
+        "required": false
+      },
       "USER_SESSION_STRING": {
         "description": "Open this link to generate session string ==> https://string-session.sonywegas.repl.run",
-        "value": "",
+        "value": "BAC2YDelHajo_BR9oRBhLA_dPyERE3Ao4h6FaL0D5REImbJUvzt2Ky6xUvuOgxzG7wbJo7b0pyyhCH1PaJJnM55MyUSIQn628w94F6gnFHm3PS0Gik8v_q9FAySuRCvLd4X49yatFnvJyXzHv_E1WuEcGUmIdTS5gfcCsfeNOvySApw-OKJVXt2LM1a-Wv6CoD8wuVYXQYwO9Px2Yh5GAgfSgOZuwMJiIQEnwG6bnrjM2MEmoS01YmzBtMYfd01Siman345MhM7ktKD_kOAZlv6KcYn1r3UdGCmKl4fjUbss3khJhd_TEd4SRztfnrLwFyc0gDuk0EwzXeycs1T_miv8VwPR0wE",
         "required": true
       }
     },
